@@ -51,23 +51,25 @@
         android:entryValues="@array/smartbar_longpress_delay_values"
         android:summary="@string/smartbar_longpress_delay_summary" />
 
-    <com.msm.xtended.preferences.CustomSeekBarPreference
+    <com.nitrogen.settings.preferences.CustomSeekBarPreference
         android:key="navbar_buttons_alpha"
         android:title="@string/navbar_buttons_alpha_title"
+        settings:defaultText="@string/value_equals_default"
         android:max="255"
         settings:min="0"
         settings:units=""
         android:persistent="false" />
 
-    <com.msm.xtended.preferences.CustomSeekBarPreference
+    <com.nitrogen.settings.preferences.CustomSeekBarPreference
         android:key="smartbar_custom_icon_size"
         android:title="@string/smartbar_custom_icon_size_title"
+        settings:defaultText="@string/value_equals_default"
         android:max="100"
         settings:min="10"
         settings:units="%"
         android:persistent="false" />
 
-    <com.msm.xtended.preferences.SecureSettingSwitchPreference
+    <com.nitrogen.settings.preferences.SecureSettingSwitchPreference
         android:key="smartbar_doubletap_sleep"
         android:title="@string/smartbar_double_tap_sleep_title"
         android:summary="@string/smartbar_double_tap_sleep_summary"

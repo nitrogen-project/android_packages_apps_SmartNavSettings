@@ -208,6 +208,4 @@
     <string name="smartbar_double_tap_sleep_title">Double tap to sleep</string>
     <string name="smartbar_double_tap_sleep_summary">Double tap on empty navbar areas to sleep</string>
     <string name="reset">Reset</string>
-
-
 </resources>
